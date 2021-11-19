@@ -67,4 +67,6 @@ def main():
 myFunction = lambda x: x ** 2
 
 if __name__ == "__main__":
+    myString = "Hola Mundo"
+    print(myString[:3])
     main()
