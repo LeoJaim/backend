@@ -41,7 +41,7 @@ Tenga 4 metodos que permita las operaciones matemaaticas basicas (+,-,*,/).
 Tenga 4 metodos que permitan las operaciones matematicas basicas (+,-,* y / por un escalar).
 
 3- Crear una clase que represente una matriz de 3x3 dimensiones.
-Tengan 4 metodos que permitan las operaciones matemaaticas basicas (+,-,* por un vector).
+Tengan 3 metodos que permitan las operaciones matematicas basicas (excluimos la division) (+ y - entre matrices, * solo por un vector).
 
 4- Crear una clase que represente al perfil usuario que ademas tenga una relacion (herencia) con estas dos clases:
 administrador y reportero (solo tiene lectura de datos).
