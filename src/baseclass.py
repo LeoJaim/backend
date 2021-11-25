@@ -26,6 +26,8 @@ class Perro(Animal):
 
 myInstance = Perro("Firulais", 3)
 
+mySecondInstance = myInstance
+
 myInstance.ladrar()
 
 myInstance.__hablar()

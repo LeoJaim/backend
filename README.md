@@ -49,4 +49,4 @@ El usuario tiene objeto carrito de compras.
 El administrador puede ver a todos los usuarios y lo que tenga adentro.
 El reporter solo ve todos los carritos de compra.
 
-
+5- Para la clase base del punto 4 (del usuario), van a crear otra clase que pueda instanciar los objetos usuario, administrador o reporter pasandole como parametro el type.

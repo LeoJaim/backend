@@ -1,3 +1,7 @@
+from src.decorators import checkPositive
+
+#from decorators import checkPositive
+
 def division(num1, num2):
     print("estoy dentro de la funcion")
     return num1 / num2
@@ -22,6 +26,21 @@ def stringIteration(string, locate, replace):
             myNewString += i
     return myNewString
 
+@checkPositive
+def fibonacci(n):
+    """ Calcula el numero n de la serie de fibonacci """
+    if n == 0:
+        return 0
+    elif n == 1:
+        return 1
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
+
 if __name__ == "__main__":
     print(suma(21, 21))
+    #print(fibonacci(10))
+
+    #print(checkPositive(fibonacci))
+
+    print(fibonacci(-100))
 
