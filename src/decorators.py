@@ -4,3 +4,4 @@ def checkPositive(func):
             raise ValueError("Value must be positive")
         return func(x)
     return wrapper
+
